@@ -1,7 +1,11 @@
 Đi tới thư mục chính, chạy dòng lệnh sau:
 
 ```bash
-docker-compose up --build
+python -m venv myenv
+
+myenv\Scripts\activate
+
+python app.py
 ```
 
 Để sử dụng, ta hãy gọi:
